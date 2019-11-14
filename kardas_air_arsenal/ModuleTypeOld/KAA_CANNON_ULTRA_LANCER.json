@@ -1,0 +1,125 @@
+[
+	{
+		"name": "FLIPPED_KAA_CANNON_ULTRA_LANCER",
+		"flippedFrom": "KAA_CANNON_ULTRA_LANCER"
+	},
+	{
+		"name": "KAA_CANNON_ULTRA_LANCER",
+		"categories": ["KAA_CANNONS_T4"],
+		"required": "KAA_B_CANNONS_ULTRA",
+		
+		"w": 12,
+		"h": 3,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 34,
+			"y": 0,
+			"w": 12,
+			"h": 3
+		},
+		"externalAppearances": [
+			{
+				"x": -1,
+				"y": -2,
+				"appearance": {
+					"src": "kaa_weapons_backgrounds_01",
+					"x": 35,
+					"y": 3,
+					"w": 14,
+					"h": 5
+				}
+			}
+		],
+		"weaponAppearance": {
+			"shotAnimationInterval": 1,
+			"shotFrames": [
+				{ "src": "kaa_weapons_ammo_01", "x": 128, "y": 15, "w": 80, "h": 24 },
+				{ "src": "kaa_weapons_ammo_01", "x": 128, "y": 40, "w": 80, "h": 24 },
+			],
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 415,
+				"w": 960,
+				"h": 52
+			},
+			"barrelX": -529,
+			"barrelY": -26,
+			"recoil": 15,
+			"hitExplosionSize": 10,
+            "missExplosionSize": 2.5
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 7,
+		"muzzleCenterY": 0,
+		"muzzleLength": 20,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 1, 2 ],
+		"rightDoors": [],
+		"canOccupy": [
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 1 },
+			{ "x": 4, "y": 1 },
+			{ "x": 5, "y": 1 },
+			{ "x": 6, "y": 1 },
+			{ "x": 0, "y": 2 },
+			{ "x": 1, "y": 2 },
+			{ "x": 2, "y": 2 },
+			{ "x": 3, "y": 2 },
+			{ "x": 4, "y": 2 },
+			{ "x": 5, "y": 2 },
+			{ "x": 6, "y": 2 },
+			{ "x": 7, "y": 2 },
+			{ "x": 8, "y": 2 },
+			{ "x": 9, "y": 2 },
+			{ "x": 10, "y": 2 },
+			{ "x": 11, "y": 2 }
+		],
+		
+		"fireSound": "cannon",
+		"fireSoundCount": 6,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": true,
+		"isExplosive": false,
+		"muzzleFlash": false,
+		"frontOnly": true,
+		"backOnly": false,
+		"topOnly": true,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 2880,
+		"fireHP": 1440,
+		"explodeHP": 720,
+		"explodeDmg": 3460,
+		"moveDelay": 800,
+		"weight": 3610,
+		
+		"cost": 4500,
+		"crew": 6,
+		"recommendedCrew": 10,
+		"recommendedGuards": 3,
+		
+		"penDmg": 50000,
+		"blastDmg": 2500,
+		"blastSplashRadius": 300,
+		"clip": 1,
+		"numShots": 1,
+		"reload": { "base": 120000, "FASTER_CANNON_RELOAD": 96000 },
+		"coalReload": 2000,
+		"ammoPerClip": 12,
+		"jitterMerge": 0,
+		"recoilForce": 15,
+		"inaccuracy": 0,
+		"shotSpeed": 10,
+		"fireArc": { "arcCenter": "0", "degrees": 15 },
+		"optimumRange": 2560
+	}
+]

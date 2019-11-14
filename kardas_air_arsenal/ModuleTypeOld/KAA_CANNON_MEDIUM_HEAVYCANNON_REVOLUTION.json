@@ -1,0 +1,103 @@
+[
+	{
+		"name": "KAA_CANNON_MEDIUM_HEAVYCANNON_REVOLUTION",
+		"categories": ["KAA_CANNONS_T2"],
+		"required": "IMPERIAL_CANNON",
+		
+		"w": 3,
+		"h": 3,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 14,
+			"y": 9,
+			"w": 3,
+			"h": 3
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "kaa_weapons_backgrounds_01",
+					"x": 11,
+					"y": 9,
+					"w": 3,
+					"h": 3
+				}
+			}
+		],
+		"weaponAppearance": {
+			"shot": {
+				"src": "spritesheet",
+				"x": 0,
+				"y": 304,
+				"w": 10,
+				"h": 5
+			},
+			"barrel": {
+				"src": "spritesheet",
+				"x": 112,
+				"y": 193,
+				"w": 144,
+				"h": 12
+			},
+			"barrelX": -58,
+			"barrelY": 18,
+			"recoil": 2
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 1.5,
+		"muzzleCenterY": 1.5,
+		"muzzleLength": 1.25,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 2 ],
+		"rightDoors": [ 2 ],
+		"canOccupy": [
+			{ "x": 0, "y": 2 },
+			{ "x": 1, "y": 2 },
+			{ "x": 2, "y": 2 }
+		],
+		
+		"fireSound": "cannon",
+		"fireSoundCount": 6,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": true,
+		"isExplosive": false,
+		"muzzleFlash": true,
+		"frontOnly": false,
+		"backOnly": false,
+		"topOnly": false,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 370,
+		"fireHP": 185,
+		"explodeHP": 93,
+		"explodeDmg": 185,
+		"moveDelay": 800,
+		"weight": 235,
+		
+		"cost": 800,
+		"crew": 3,
+		"recommendedCrew": 4,
+		
+		"penDmg": 150,
+		"blastDmg": 0,
+		"clip": 1,
+		"numShots": 1,
+		"reload": { "base": 8000, "FASTER_CANNON_RELOAD": 6400 },
+		"ammoPerClip": 1,
+		"maxXRange": 1536,
+		"jitterMerge": 0.25,
+		"recoilForce": 2,
+		"inaccuracy": { "base": 0.0013, "PRECISE_GUNNERY": 0.00065 },
+		"shotSpeed": 2,
+		"fireArc": { "arcCenter": "0", "degrees": 360 },
+		"optimumRange": 896
+	}
+]

@@ -1,0 +1,97 @@
+[
+	{
+		"name": "FLIPPED_KAA_MISSILES_CRUISE",
+		"flippedFrom": "KAA_MISSILES_CRUISE"
+	},
+	{
+		"name": "KAA_MISSILES_CRUISE",
+		"categories": ["KAA_MISSILES"],
+		"required": "ROCKETS",
+		
+		"w": 1,
+		"h": 3,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 9,
+			"y": 15,
+			"w": 1,
+			"h": 3
+		},
+		"externalAppearances": [
+		],
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 240,
+				"y": 105,
+				"w": 39,
+				"h": 7
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 0,
+				"w": 1,
+				"h": 1
+			},
+			"barrelX": 0,
+			"barrelY": 0,
+			"recoil": 0,
+			"hitExplosionSize": 0.67,
+            "missExplosionSize": 0.17
+		},
+		"windows": [
+		],
+		"muzzleCenterX": -3,
+		"muzzleCenterY": -1,
+		"muzzleLength": 3,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 2 ],
+		"rightDoors": [ 2 ],
+		"canOccupy": [
+			{ "x": 0, "y": 2 }
+		],
+		
+		"fireSound": "rocket",
+		"fireSoundCount": 5,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": false,
+		"isExplosive": true,
+		"muzzleFlash": false,
+		"frontOnly": false,
+		"backOnly": false,
+		"topOnly": true,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 120,
+		"fireHP": 60,
+		"explodeHP": 60,
+		"explodeDmg": 312,
+		"moveDelay": 800,
+		"weight": 75,
+		
+		"cost": 250,
+		"crew": 1,
+		"recommendedCrew": 2,
+		"recommendedGuards": 0,
+		
+		"penDmg": 0,
+		"blastDmg": 72,
+		"blastSplashRadius": 20,
+		"clip": 1,
+		"numShots": 1,
+		"reload": 12000,
+		"ammoPerClip": 3,
+		"jitterMerge": 0,
+		"recoilForce": 0,
+		"inaccuracy": 0.0015,
+		"shotSpeed": 3,
+		"fireArc": { "arcCenter": "270", "degrees": 180 },
+		"optimumRange": 2048
+	}
+]

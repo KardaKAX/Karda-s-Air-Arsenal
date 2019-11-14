@@ -1,0 +1,101 @@
+[
+	{
+		"name": "FLIPPED_KAA_PRESSURE_STEAM",
+		"flippedFrom": "KAA_PRESSURE_STEAM"
+	},
+	{
+		"name": "KAA_PRESSURE_STEAM",
+		"categories": ["KAA_PRESSURE"],
+		"required": "FLAMETHROWERS",
+		
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 19,
+			"y": 10,
+			"w": 2,
+			"h": 1
+		},
+		"externalAppearances": [
+		],
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 1,
+				"y": 1,
+				"w": 1,
+				"h": 1
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 728,
+				"w": 20,
+				"h": 6
+			},
+			"barrelX": 15,
+			"barrelY": 6,
+			"recoil": 0.25,
+			"shotEmitter": { "type": "kaa_part_bluefire", "emitProbability": 0.03 }
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 1.5625,
+		"muzzleCenterY": 0.5625,
+		"muzzleLength": 0.75,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 0 ],
+		"rightDoors": [],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+		],
+		
+		"fireSound": "flamethrower",
+		"fireSoundCount": 1,
+		"soundEvery": 6,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": false,
+		"isExplosive": true,
+		"muzzleFlash": true,
+		"frontOnly": true,
+		"backOnly": false,
+		"topOnly": false,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 80,
+		"fireHP": 40,
+		"explodeHP": 5,
+		"explodeDmg": 55,
+		"moveDelay": 800,
+		"weight": 60,
+		
+		"cost": 52,
+		"crew": 1,
+		"recommendedCrew": 2,
+		"recommendedGuards": 0,
+		
+		"penDmg": 0,
+		"blastDmg": 4,
+		"clip": 50,
+		"numShots": 1,
+		"reload": 50,
+		"coalReload": 10000,
+		"clipReloadTime": 3500,
+		"ammoPerClip": 2,
+		"maxXRange": 350,
+		"maxUpRange": 150,
+		"jitterMerge": 1,
+		"recoilForce": 0.25,
+		"inaccuracy": 0.04,
+		"shotSpeed": 1.25,
+		"fireArc": { "arcCenter": "0", "degrees": 130 },
+		"optimumRange": 250
+	}
+]

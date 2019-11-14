@@ -1,0 +1,59 @@
+[
+	{
+		"name": "KAA_RIFLES"
+	},
+	{
+		"name": "KAA_GRENADES_MORTARS"
+	},
+	{
+		"name": "KAA_FLAK"
+	},
+	{
+		"name": "KAA_SAM"
+	},
+	{
+		"name": "KAA_ARTILLERY"
+	},
+	{
+		"name": "KAA_CANNONS_T1"
+	},
+	{
+		"name": "KAA_CANNONS_T2"
+	},
+	{
+		"name": "KAA_CANNONS_T3"
+	},
+	{
+		"name": "KAA_CANNONS_T4"
+	},
+	{
+		"name": "KAA_BOMBBAYS"
+	},
+	{
+		"name": "KAA_MISSILES"
+	},
+	{
+		"name": "KAA_ROCKETS"
+	},
+	{
+		"name": "KAA_TORPEDOS"
+	},
+	{
+		"name": "KAA_CLUSTER"
+	},
+	{
+		"name": "KAA_GATLING_T1"
+	},
+	{
+		"name": "KAA_GATLING_T2"
+	},
+	{
+		"name": "KAA_PRESSURE"
+	},
+	{
+		"name": "KAA_ELECTRONIC"
+	},
+	{
+		"name": "KAA_HARPOONS"
+	}
+]

@@ -1,0 +1,106 @@
+[
+	{
+		"name": "FLIPPED_KAA_CANNON_HEAVY_HAMMERHEAD_LIGHT",
+		"flippedFrom": "KAA_CANNON_HEAVY_HAMMERHEAD_LIGHT"
+	},
+	{
+		"name": "KAA_CANNON_HEAVY_HAMMERHEAD_LIGHT",
+		"categories": ["KAA_CANNONS_T3"],
+		"required": "HEAVY_CANNON",
+		
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 5,
+			"y": 7,
+			"w": 2,
+			"h": 1
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "kaa_weapons_backgrounds_01",
+					"x": 5,
+					"y": 8,
+					"w": 3,
+					"h": 2
+				}
+			}
+		],
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 112,
+				"y": 12,
+				"w": 13,
+				"h": 5
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 357,
+				"w": 198,
+				"h": 28
+			},
+			"barrelX": -58,
+			"barrelY": -21,
+			"recoil": 1
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 2.5625,
+		"muzzleCenterY": -0.4375,
+		"muzzleLength": 6.25,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 0 ],
+		"rightDoors": [],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 }
+		],
+		
+		"fireSound": "cannon",
+		"fireSoundCount": 6,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": true,
+		"isExplosive": false,
+		"muzzleFlash": true,
+		"frontOnly": true,
+		"backOnly": false,
+		"topOnly": true,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 160,
+		"fireHP": 80,
+		"explodeHP": 40,
+		"explodeDmg": 90,
+		"moveDelay": 800,
+		"weight": 210,
+		
+		"cost": 450,
+		"crew": 1,
+		"recommendedCrew": 3,
+		"recommendedGuards": 1,
+		
+		"penDmg": 75,
+		"blastDmg": 0,
+		"clip": 1,
+		"numShots": 1,
+		"reload": { "base": 5000, "FASTER_CANNON_RELOAD": 4000 },
+		"ammoPerClip": 2,
+		"jitterMerge": 0.25,
+		"recoilForce": 1,
+		"inaccuracy": { "base": 0.0015, "PRECISE_GUNNERY": 0.00075 },
+		"shotSpeed": 3.5,
+		"fireArc": { "arcCenter": "0", "degrees": 90 },
+		"optimumRange": 1664
+	}
+]

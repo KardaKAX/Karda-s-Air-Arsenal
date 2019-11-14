@@ -1,0 +1,119 @@
+[
+	{
+		"name": "FLIPPED_KAA_RIFLE_MARKSMAN",
+		"flippedFrom": "KAA_RIFLE_MARKSMAN"
+	},
+	{
+		"name": "KAA_RIFLE_MARKSMAN",
+		"categories": ["KAA_RIFLES"],
+		"required": "KAA_B_RIFLES_ENH",
+		
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 1,
+			"y": 0,
+			"w": 2,
+			"h": 1
+		},
+		"externalAppearances": [	
+		],
+		"damagedExternalAppearances": [
+        ],
+		"destroyedExternalAppearances": [
+        ],
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 0,
+				"y": 6,
+				"w": 5,
+				"h": 1
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 57,
+				"y": 0,
+				"w": 27,
+				"h": 5
+			},
+			"barrelX": 13,
+			"barrelY": 7,
+			"recoil": 4,
+			"hitExplosionRadius": 0.125,
+			"missExplosionRadius": 0,
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 1.65625,
+		"muzzleCenterY": 0.5625,
+		"muzzleLength": 0.75,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 0 ],
+		"rightDoors": [],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 }
+		],
+		
+		"fireSound": {
+            "layers": [
+                {
+                    "variations": [ "rifle0" ],
+                    "volume": 1,
+                    "pitch": {
+                        "min": 0.6,
+                        "max": 0.8,
+                        "distance": [
+                            0, 1.25,
+                            3000, 0.625
+                        ]
+                    }
+                }
+            ]
+        },
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": false,
+		"isExplosive": false,
+		"muzzleFlash": true,
+		"frontOnly": true,
+		"backOnly": false,
+		"topOnly": false,
+		"bottomOnly": false,
+		"external": false,
+		"countsAsActiveCrew": false,
+		
+		"hp": 80,
+		"fireHP": 40,
+		"explodeHP": 0,
+		"explodeDmg": 0,
+		"moveDelay": 800,
+		"weight": 18,
+		
+		"cost": 48,
+		"crew": 1,
+		"recommendedCrew": 2,
+		"recommendedGuards": 0,
+		
+		"penDmg": 20,
+		"blastDmg": 0,
+		"directDmg": 2,
+		"clip": 6,
+		"numShots": 1,
+		"reload": 5200,
+		"ammoPerClip": 1,
+		"jitterMerge": 0,
+		"recoilForce": 0,
+		"inaccuracy": 0.0008,
+		"fixedInaccuracyVsTroops": 3.5,
+		"shotSpeed": 2,
+		"fireArc": { "arcCenter": "0", "degrees": 30 },
+		"optimumRange": 1500,
+		"shootTroopsRange": 2250
+	}
+]

@@ -1,0 +1,101 @@
+[
+	{
+		"name": "FLIPPED_KAA_TORPEDOS_FALCON",
+		"flippedFrom": "KAA_TORPEDOS_FALCON"
+	},
+	{
+		"name": "KAA_TORPEDOS_FALCON",
+		"categories": ["KAA_TORPEDOS"],
+		"required": "TORPEDOES",
+		
+		"w": 3,
+		"h": 2,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 6,	
+			"y": 18,
+			"w": 3,
+			"h": 2
+		},
+		"externalAppearances": [
+		],
+		"weaponAppearance": {
+			"shotAnimationInterval": 500,
+			"shotLoopConstantly": true,
+			"shotFrames": [
+				{ "src": "kaa_weapons_ammo_01", "x": 240, "y": 37, "w": 30, "h": 12 },
+				{ "src": "kaa_weapons_ammo_01", "x": 240, "y": 50, "w": 30, "h": 12 }
+			],
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 0,
+				"w": 1,
+				"h": 1
+			},
+			"barrelX": 0,
+			"barrelY": 0,
+			"recoil": 0.25,
+			"hitExplosionSize": 1.67,
+            "missExplosionSize": 0.42
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 2,
+		"muzzleCenterY": 1.25,
+		"muzzleLength": 0,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 1 ],
+		"rightDoors": [],
+		"canOccupy": [
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 }
+		],
+		
+		"fireSound": "torpedo",
+		"fireSoundCount": 1,
+		"hitSound": "explosion",
+		"hitSoundCount": 4,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": false,
+		"isExplosive": true,
+		"muzzleFlash": false,
+		"frontOnly": true,
+		"backOnly": false,
+		"topOnly": false,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 240,
+		"fireHP": 120,
+		"explodeHP": 60,
+		"explodeDmg": 320,
+		"moveDelay": 800,
+		"weight": 150,
+		
+		"cost": 300,
+		"crew": 2,
+		"recommendedCrew": 4,
+		"recommendedGuards": 0,
+		
+		"penDmg": 50,
+		"blastDmg": { "base": 200, "OPTIMAL_DISTANCE_FUZE": 240 },
+		"blastSplashRadius": 50,
+		"clip": 1,
+		"numShots": 1,
+		"reload": 20000,
+		"ammoPerClip": 3,
+		"minXRange": { "base": 512, "SAFETY_FUZES": 102 },
+		"jitterMerge": 0.75,
+		"recoilForce": 0.25,
+		"inaccuracy": 0.002,
+		"shotSpeed": 1,
+		"fireArc": { "arcCenter": "0", "degrees": 15 },
+		"optimumRange": 2048
+	}
+]

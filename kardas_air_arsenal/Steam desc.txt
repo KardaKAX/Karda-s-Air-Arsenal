@@ -1,0 +1,13 @@
+[V 1.13.0 Beta] Karda's Air Arsenal - Weapons, armour and more.
+
+This is the beta branch of the main mod. This is where, from now on, I will be publishing live updates as I perform them for feedback and testing.
+
+If you see something broken or not quite fitting, do let me know below.
+
+[b]Feedback requested[/b]
+- Balance on Heavy Mortars (all 3 versions)
+- Graphic of Heavy Mortars (Needs to be more visually distinct from light counterpart?)
+
+[b]Known issues:[/b]
+- Heavy Grenade Launcher (AP) / (HE) / (GS) has a blank descriptor.
+- Mortars have no shot sound(?)

@@ -1,0 +1,111 @@
+[
+	{
+		"name": "FLIPPED_KAA_FLAK_BURST_DORSAL_DECK",
+		"flippedFrom": "KAA_FLAK_BURST_DORSAL_DECK"
+	},
+	{
+		"name": "KAA_FLAK_BURST_DORSAL_DECK",
+		"categories": ["KAA_FLAK"],
+		"required": "FLAK_CANNONS",
+		
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 8,
+			"y": 3,
+			"w": 2,
+			"h": 1
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "kaa_weapons_backgrounds_01",
+					"x": 15,
+					"y": 2,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 32,
+				"y": 5,
+				"w": 2,
+				"h": 1
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 66,
+				"w": 51,
+				"h": 10
+			},
+			"barrelX": -10,
+			"barrelY": 1,
+			"recoil": 1.5,
+			"hitExplosionRadius": 0.27,
+			"missExplosionRadius": 0.06
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 1,
+		"muzzleCenterY": 0.375,
+		"muzzleLength": 1.5,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 0 ],
+		"rightDoors": [ 0 ],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 }
+		],
+		
+		"fireSound": "flak",
+		"fireSoundCount": 4,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": false,
+		"isExplosive": true,
+		"muzzleFlash": true,
+		"frontOnly": false,
+		"backOnly": false,
+		"topOnly": true,
+		"bottomOnly": false,
+		"external": true,
+		
+		"hp": 40,
+		"fireHP": 20,
+		"explodeHP": 10,
+		"explodeDmg": 55,
+		"moveDelay": 800,
+		"weight": 25,
+		
+		"cost": 200,
+		"crew": 1,
+		"recommendedCrew": 2,
+		"recommendedGuards": 0,
+		
+		"penDmg": 0,
+		"blastDmg": 20,
+		"blastSplashRadius": 7,
+		"clip": 8,
+		"numShots": 3,
+		"reload": 250,
+		"clipReloadTime": 6000,
+		"ammoPerClip": 2,
+		"jitterMerge": 0.5,
+		"multiShotJitter": 0.0005,
+		"recoilForce": 1.5,
+		"inaccuracy": 0.0025,
+		"shotSpeed": 1.5,
+		"fireArc": { "arcCenter": "325", "degrees": 120 },
+		"optimumRange": 500
+	}
+]

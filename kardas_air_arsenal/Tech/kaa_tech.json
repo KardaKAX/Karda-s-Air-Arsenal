@@ -1,0 +1,90 @@
+[
+	{
+		"name": "KAA_T_RIFLES_ENH",
+		"sort": 1401,
+		"tier": 1,
+		"bonuses": ["KAA_B_RIFLES_ENH"],
+		"dependencies": [ "RIFLING" ],
+		"img": { "src": "kaa_tech", "x": 0, "y": 0, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_MORTARS",
+		"sort": 1571,
+		"tier": 1,
+		"bonuses": ["KAA_B_MORTARS"],
+		"dependencies": [ "GUNNERY" ],
+		"img": { "src": "kaa_tech", "x": 64, "y": 0, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_ARTILLERY",
+		"sort": 2571,
+		"tier": 2,
+		"bonuses": ["KAA_B_ARTILLERY"],
+		"dependencies": [ "KAA_T_MORTARS" ],
+		"img": { "src": "kaa_tech", "x": 64, "y": 64, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_RIFLES_ENH_2",
+		"sort": 2401,
+		"tier": 2,
+		"bonuses": ["KAA_B_RIFLES_ENH_2"],
+		"dependencies": [ "KAA_T_RIFLES_ENH" ],
+		"img": { "src": "kaa_tech", "x": 0, "y": 64, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_RIFLES_ENH_3",
+		"sort": 3401,
+		"tier": 3,
+		"bonuses": ["KAA_B_RIFLES_ENH_3"],
+		"dependencies": [ "KAA_T_RIFLES_ENH_2" ],
+		"img": { "src": "kaa_tech", "x": 0, "y": 128, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_ARTILLERY_2",
+		"sort": 3571,
+		"tier": 3,
+		"bonuses": ["KAA_B_ARTILLERY_2"],
+		"dependencies": [ "KAA_T_ARTILLERY", "HEAVY_CANNON" ],
+		"img": { "src": "kaa_tech", "x": 64, "y": 128, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_ARTILLERY_ROCKET",
+		"sort": 3572,
+		"tier": 3,
+		"bonuses": ["KAA_B_ARTILLERY_ROCKET"],
+		"dependencies": [ "KAA_T_ARTILLERY", "ADVANCED_EXPLOSIVES" ],
+		"img": { "src": "kaa_tech", "x": 64, "y": 192, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_CANNONS_ULTRA",
+		"sort": 4801,
+		"tier": 4,
+		"bonuses": ["KAA_B_CANNONS_ULTRA"],
+		"dependencies": [ "HEAVY_CANNON", "SUSPENDIUM_CANNON" ],
+		"img": { "src": "kaa_tech", "x": 128, "y": 0, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_BOMBS_ULTRA",
+		"sort": 4802,
+		"tier": 4,
+		"bonuses": ["KAA_B_BOMBS_ULTRA"],
+		"dependencies": [ "CYBERNETICS", "SUSPENDIUM_CANNON" ],
+		"img": { "src": "kaa_tech", "x": 192, "y": 0, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_WEPENH_1",
+		"sort": 4501,
+		"tier": 4,
+		"bonuses": ["KAA_B_WEPENH_1"],
+		"dependencies": [ "COMPUTERS", "AUTOMATED_LOADING_SYSTEMS" ],
+		"img": { "src": "kaa_tech", "x": 256, "y": 0, "w": 64, "h": 64 }
+	},
+	{
+		"name": "KAA_T_WEPENH_2",
+		"sort": 5500,
+		"tier": 5,
+		"bonuses": ["KAA_B_WEPENH_2"],
+		"dependencies": [ "KAA_T_WEPENH_1" ],
+		"img": { "src": "kaa_tech", "x": 256, "y": 64, "w": 64, "h": 64 }
+	}
+]

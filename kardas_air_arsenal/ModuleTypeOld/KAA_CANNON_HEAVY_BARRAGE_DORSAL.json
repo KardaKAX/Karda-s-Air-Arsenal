@@ -1,0 +1,114 @@
+[
+	{
+		"name": "KAA_CANNON_HEAVY_BARRAGE_DORSAL",
+		"categories": ["KAA_CANNONS_T3"],
+		"required": "HEAVY_CANNON",
+		
+		"w": 4,
+		"h": 3,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 25,
+			"y": 9,
+			"w": 4,
+			"h": 3
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "kaa_weapons_backgrounds_01",
+					"x": 29,
+					"y": 10,
+					"w": 4,
+					"h": 1
+				}
+			}
+		],
+		"mask": {
+			"x": 25,
+			"y": 12,
+		},
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 80,
+				"y": 52,
+				"w": 16,
+				"h": 7
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 840,
+				"w": 96,
+				"h": 32
+			},
+			"barrelX": -16,
+			"barrelY": 0,
+			"recoil": 5,
+			"hitExplosionRadius": 1.67,
+			"missExplosionRadius": 0.42
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 2,
+		"muzzleCenterY": 0,
+		"muzzleLength": 2.5,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 2 ],
+		"rightDoors": [ 1, 2 ],
+		"canOccupy": [
+			{ "x": 3, "y": 1 },
+			{ "x": 0, "y": 2 },
+			{ "x": 1, "y": 2 },
+			{ "x": 2, "y": 2 },
+			{ "x": 3, "y": 2 }
+		],
+		
+		"fireSound": "cannon",
+		"fireSoundCount": 6,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": true,
+		"isExplosive": false,
+		"muzzleFlash": true,
+		"frontOnly": false,
+		"backOnly": false,
+		"topOnly": true,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 640,
+		"fireHP": 320,
+		"explodeHP": 160,
+		"explodeDmg": 455,
+		"moveDelay": 800,
+		"weight": 810,
+		
+		"cost": 1250,
+		"crew": 3,
+		"recommendedCrew": 5,
+		"recommendedGuards": 0,
+		
+		"penDmg": 75,
+		"blastDmg": 125,
+		"blastSplashRadius": 50,
+		"clip": 6,
+		"numShots": 1,
+		"reload": 500,
+		"clipReloadTime": { "base": 20000, "FASTER_CANNON_RELOAD": 16000 },
+		"coalReload": 10000,
+		"ammoPerClip": 9,
+		"jitterMerge": 0.25,
+		"recoilForce": 1,
+		"inaccuracy": { "base": 0.0025, "PRECISE_GUNNERY": 0.00125 },
+		"shotSpeed": 3.5,
+		"fireArc": { "arcCenter": "270", "degrees": 60 },
+		"optimumRange": 1536
+	}
+]

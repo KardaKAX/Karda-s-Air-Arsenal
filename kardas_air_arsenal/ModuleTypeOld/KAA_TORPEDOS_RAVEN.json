@@ -1,0 +1,102 @@
+[
+	{
+		"name": "FLIPPED_KAA_TORPEDOS_RAVEN",
+		"flippedFrom": "KAA_TORPEDOS_RAVEN"
+	},
+	{
+		"name": "KAA_TORPEDOS_RAVEN",
+		"categories": ["KAA_TORPEDOS"],
+		"required": "TORPEDOES",
+		
+		"w": 3,
+		"h": 1,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 6,	
+			"y": 20,
+			"w": 3,
+			"h": 1
+		},
+		"externalAppearances": [
+		],
+		"weaponAppearance": {
+			"shotAnimationInterval": 250,
+			"shotLoopConstantly": true,
+			"shotFrames": [
+				{ "src": "kaa_weapons_ammo_01", "x": 240, "y": 63, "w": 10, "h": 5 },
+				{ "src": "kaa_weapons_ammo_01", "x": 240, "y": 63, "w": 10, "h": 5 }
+			],
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 0,
+				"w": 1,
+				"h": 1
+			},
+			"barrelX": 0,
+			"barrelY": 0,
+			"recoil": 0,
+			"hitExplosionSize": 1.67,
+            "missExplosionSize": 0.42
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 2,
+		"muzzleCenterY": 0.5,
+		"muzzleLength": 0,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 0 ],
+		"rightDoors": [],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+			{ "x": 2, "y": 0 }
+		],
+		
+		"fireSound": "torpedo",
+		"fireSoundCount": 1,
+		"hitSound": "explosion",
+		"hitSoundCount": 4,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": false,
+		"isExplosive": true,
+		"muzzleFlash": false,
+		"frontOnly": true,
+		"backOnly": false,
+		"topOnly": false,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 120,
+		"fireHP": 60,
+		"explodeHP": 30,
+		"explodeDmg": 160,
+		"moveDelay": 800,
+		"weight": 75,
+		
+		"cost": 300,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"recommendedGuards": 0,
+		
+		"penDmg": 20,
+		"blastDmg": { "base": 100, "OPTIMAL_DISTANCE_FUZE": 120 },
+		"blastSplashRadius": 15,
+		"clip": 3,
+		"numShots": 1,
+		"reload": 500,
+		"clipReloadTime": 20000,
+		"ammoPerClip": 2,
+		"minXRange": { "base": 256, "SAFETY_FUZES": 51 },
+		"jitterMerge": 2.25,
+		"recoilForce": 0,
+		"inaccuracy": 0.0035,
+		"shotSpeed": 2.5,
+		"fireArc": { "arcCenter": "0", "degrees": 15 },
+		"optimumRange": 1536
+	}
+]

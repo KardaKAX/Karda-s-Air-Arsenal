@@ -1,0 +1,95 @@
+[
+	{
+		"name": "KAA_BOMBS_TITAN",
+		"categories": ["KAA_BOMBBAYS"],
+		"required": "ROCKETS",
+		
+		"w": 3,
+		"h": 2,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 0,
+			"y": 14,
+			"w": 3,
+			"h": 2
+		},
+		"externalAppearances": [
+		],
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 208,
+				"y": 15,
+				"w": 26,
+				"h": 14
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 0,
+				"w": 1,
+				"h": 1
+			},
+			"barrelX": 1.5,
+			"barrelY": 2,
+			"recoil": 0,
+			"hitExplosionRadius": 1.67,
+			"missExplosionRadius": 0.42
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 1.5,
+		"muzzleCenterY": 2,
+		"muzzleLength": 0,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 1 ],
+		"rightDoors": [ 1 ],
+		"canOccupy": [
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 },
+		],
+		
+		"fireSound": "hiss",
+		"fireSoundCount": 2,
+		
+		"isWeapon": true,
+		"isGun": false,
+		"isCannon": false,
+		"isExplosive": false,
+		"muzzleFlash": false,
+		"frontOnly": false,
+		"backOnly": false,
+		"topOnly": false,
+		"bottomOnly": true,
+		"external": false,
+		
+		"hp": 250,
+		"fireHP": 125,
+		"explodeHP": 63,
+		"explodeDmg": 650,
+		"moveDelay": 800,
+		"weight": 385,
+		
+		"cost": 125,
+		"crew": 2,
+		"recommendedCrew": 4,
+		"recommendedGuards": 1,
+		
+		"penDmg": 75,
+		"blastDmg": 200,
+		"blastSplashRadius": 50,
+		"clip": 1,
+		"numShots": 1,
+		"reload": 10000,
+		"ammoPerClip": 2,
+		"jitterMerge": 0.75,
+		"recoilForce": 0,
+		"inaccuracy": 0.0025,
+		"shotSpeed": 1,
+		"fireArc": { "arcCenter": "90", "degrees": 10 },
+		"optimumRange": 1280
+	}
+]

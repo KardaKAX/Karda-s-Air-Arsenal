@@ -1,0 +1,92 @@
+[
+	{
+		"name": "KAA_GATLING_ENHANCED_REVOLUTION",
+		"categories": ["KAA_GATLING_T1"],
+		"required": "KAA_B_RIFLES_ENH_2",
+		
+		"w": 2,
+		"h": 2,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 12,
+			"y": 7,
+			"w": 2,
+			"h": 2
+		},
+		"externalAppearances": [	
+		],
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 0,
+				"y": 4,
+				"w": 2,
+				"h": 1
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 635,
+				"w": 39,
+				"h": 5
+			},
+			"barrelX": -3,
+			"barrelY": 13,
+			"recoil": 0.25
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 1,
+		"muzzleCenterY": 1,
+		"muzzleLength": 1,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 1 ],
+		"rightDoors": [],
+		"canOccupy": [
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 }
+		],
+		
+		"fireSound": "rifle",
+		"fireSoundCount": 1,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": false,
+		"isExplosive": false,
+		"muzzleFlash": true,
+		"frontOnly": false,
+		"backOnly": false,
+		"topOnly": false,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 160,
+		"fireHP": 80,
+		"explodeHP": 40,
+		"explodeDmg": 80,
+		"moveDelay": 800,
+		"weight": 100,
+		
+		"cost": 265,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"recommendedGuards": 0,
+		
+		"penDmg": 9,
+		"blastDmg": 0,
+		"clip": 30,
+		"numShots": 1,
+		"reload": 125,
+		"clipReloadTime": 1500,
+		"ammoPerClip": 1,
+		"jitterMerge": 0.25,
+		"recoilForce": 0.25,
+		"inaccuracy": 0.003,
+		"shotSpeed": 1.5,
+		"fireArc": { "arcCenter": "0", "degrees": 360 },
+		"optimumRange": 512,
+	}
+]

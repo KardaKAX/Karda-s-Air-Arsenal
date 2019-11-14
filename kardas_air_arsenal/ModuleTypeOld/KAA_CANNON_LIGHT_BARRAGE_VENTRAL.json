@@ -1,0 +1,110 @@
+[
+	{
+		"name": "KAA_CANNON_LIGHT_BARRAGE_VENTRAL",
+		"categories": ["KAA_CANNONS_T1"],
+		"required": "CANNONS",
+		
+		"w": 2,
+		"h": 2,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 25,
+			"y": 15,
+			"w": 2,
+			"h": 2
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 1,
+				"appearance": {
+					"src": "kaa_weapons_backgrounds_01",
+					"x": 29,
+					"y": 15,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"mask": {
+			"x": 25,
+			"y": 17,
+		},
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 80,
+				"y": 40,
+				"w": 8,
+				"h": 4
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 808,
+				"w": 48,
+				"h": 16
+			},
+			"barrelX": -8,
+			"barrelY": 8,
+			"recoil": 0.25,
+			"hitExplosionRadius": 0.5,
+			"missExplosionRadius": 0.13
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 1,
+		"muzzleCenterY": 1,
+		"muzzleLength": 1,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 0 ],
+		"rightDoors": [ 0 ],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 }
+		],
+		
+		"fireSound": "cannon",
+		"fireSoundCount": 6,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": true,
+		"isExplosive": false,
+		"muzzleFlash": true,
+		"frontOnly": false,
+		"backOnly": false,
+		"topOnly": false,
+		"bottomOnly": true,
+		"external": false,
+		
+		"hp": 90,
+		"fireHP": 45,
+		"explodeHP": 23,
+		"explodeDmg": 80,
+		"moveDelay": 800,
+		"weight": 60,
+		
+		"cost": 250,
+		"crew": 1,
+		"recommendedCrew": 2,
+		"recommendedGuards": 0,
+		
+		"penDmg": 15,
+		"blastDmg": 35,
+		"blastSplashRadius": 15,
+		"clip": 6,
+		"numShots": 1,
+		"reload": 333,
+		"clipReloadTime": { "base": 6000, "FASTER_CANNON_RELOAD": 4800 },
+		"ammoPerClip": 3,
+		"jitterMerge": 0.25,
+		"recoilForce": 0.25,
+		"inaccuracy": { "base": 0.0025, "PRECISE_GUNNERY": 0.00125 },
+		"shotSpeed": 1.5,
+		"fireArc": { "arcCenter": "90", "degrees": 120 },
+		"optimumRange": 512
+	}
+]

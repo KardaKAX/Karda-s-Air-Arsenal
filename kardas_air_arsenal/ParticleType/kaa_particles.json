@@ -1,0 +1,82 @@
+[
+	{
+		"name": "kaa_part_bluefire",
+		"lightRadius": 60,
+		"startSize": 10,
+		"endSize": 5,
+		"minLifespan": 1000,
+		"maxLifespan": 2000,
+		"minDx": -0.01,
+		"minDy": -0.01,
+		"maxDx": 0.01,
+		"maxDy": 0.01,
+		"windMult": 0.1,
+		"grav": -0.012,
+		"offset": 10,
+		"lit": false,
+		"startClr": {
+            "a": 100,
+            "b": 225,
+            "g": 221,
+            "r": 199
+        },
+		"earlyClr": {
+            "a": 90,
+            "b": 255,
+            "g": 201,
+            "r": 130
+        },
+		"endClr": {
+            "a": 80,
+            "b": 107,
+            "g": 0,
+            "r": 24
+        },
+		"lightClr": {
+            "a": 255,
+            "b": 3,
+            "g": 12,
+            "r": 17
+        }
+	},
+	{
+		"name": "kaa_part_steamjet",
+		"lightRadius": 40,
+		"startSize": 8,
+		"endSize": 4,
+		"minLifespan": 800,
+		"maxLifespan": 1600,
+		"minDx": -0.01,
+		"minDy": -0.01,
+		"maxDx": 0.01,
+		"maxDy": 0.01,
+		"windMult": 0.2,
+		"grav": -0.024,
+		"offset": 5,
+		"lit": false,
+		"startClr": {
+            "a": 150,
+            "b": 150,
+            "g": 150,
+            "r": 150
+        },
+		"earlyClr": {
+            "a": 150,
+            "b": 170,
+            "g": 170,
+            "r": 170
+        },
+		"endClr": {
+            "a": 100,
+            "b": 130,
+            "g": 130,
+            "r": 130
+        },
+		"lightClr": {
+            "a": 0,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        }
+	}
+]

@@ -1,0 +1,116 @@
+[
+	{
+		"name": "FLIPPED_KAA_CANNON_ULTRA_RAILJACK",
+		"flippedFrom": "KAA_CANNON_ULTRA_RAILJACK"
+	},
+	{
+		"name": "KAA_CANNON_ULTRA_RAILJACK",
+		"categories": ["KAA_CANNONS_T4"],
+		"required": "KAA_B_CANNONS_ULTRA",
+		
+		"w": 5,
+		"h": 3,
+		"appearance": {
+			"src": "kaa_weapons_backgrounds_01",
+			"x": 46,
+			"y": 0,
+			"w": 5,
+			"h": 3
+		},
+		"externalAppearances": [
+			{
+				"x": -1,
+				"y": -2,
+				"appearance": {
+					"src": "kaa_weapons_backgrounds_01",
+					"x": 49,
+					"y": 3,
+					"w": 7,
+					"h": 5
+				}
+			}
+		],
+		"weaponAppearance": {
+			"shot": {
+				"src": "kaa_weapons_ammo_01",
+				"x": 128,
+				"y": 65,
+				"w": 25,
+				"h": 9
+			},
+			"barrel": {
+				"src": "kaa_weapons_barrels_01",
+				"x": 0,
+				"y": 467,
+				"w": 276,
+				"h": 35
+			},
+			"barrelX": -94,
+			"barrelY": -14,
+			"recoil": 7.5,
+			"hitExplosionSize": 3.33,
+			"missExplosionSize": 0.83
+		},
+		"windows": [
+		],
+		"muzzleCenterX": 2.75,
+		"muzzleCenterY": 0.25,
+		"muzzleLength": 8.625,
+		
+		"upDoors": [],
+		"downDoors": [],
+		"leftDoors": [ 2 ],
+		"rightDoors": [],
+		"canOccupy": [
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 1 },
+			{ "x": 4, "y": 1 },
+			{ "x": 0, "y": 2 },
+			{ "x": 1, "y": 2 },
+			{ "x": 2, "y": 2 },
+			{ "x": 3, "y": 2 },
+			{ "x": 4, "y": 2 }
+		],
+		
+		"fireSound": "cannon",
+		"fireSoundCount": 6,
+		
+		"isWeapon": true,
+		"isGun": true,
+		"isCannon": true,
+		"isExplosive": false,
+		"muzzleFlash": false,
+		"frontOnly": true,
+		"backOnly": false,
+		"topOnly": true,
+		"bottomOnly": false,
+		"external": false,
+		
+		"hp": 1200,
+		"fireHP": 600,
+		"explodeHP": 300,
+		"explodeDmg": 900,
+		"moveDelay": 800,
+		"weight": 1510,
+		
+		"cost": 2500,
+		"crew": 5,
+		"recommendedCrew": 8,
+		"recommendedGuards": 2,
+		
+		"penDmg": 1250,
+		"blastDmg": 500,
+		"blastSplashRadius": 100,
+		"clip": 1,
+		"numShots": 1,
+		"reload": { "base": 45000, "FASTER_CANNON_RELOAD": 36000 },
+		"coalReload": 8000,
+		"ammoPerClip": 5,
+		"jitterMerge": 0.125,
+		"recoilForce": 7.5,
+		"inaccuracy": { "base": 0.0015, "PRECISE_GUNNERY": 0.00075 },
+		"shotSpeed": 5,
+		"fireArc": { "arcCenter": "0", "degrees": 45 },
+		"optimumRange": 2048
+	}
+]
