@@ -1,0 +1,14 @@
+[h1][V 1.13.0] Karda's Air Arsenal - Weapons, armour and more.[/h1]
+
+So you're here because you like guns, right? Or maybe you want more parts for your ship?
+You like shooting stuff, and want more ways to do it.
+So does the AI, but that's aside the point.
+
+[h1]Current additions:[/h1]
+- 130 Weapon Modules
+- 8 Technologies
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1492485499]Legacy modules are available here for compatibility with older designs[/url]
+
+[b]Known Bugs & notes[/b]
+None! Please report any in the feedback forum.

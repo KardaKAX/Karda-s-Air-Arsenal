@@ -1,0 +1,809 @@
+[V1.0.0]
++ Steam Release
++ Added Light Mortar
+
+[V1.1.0]
++ Added Heavy Mortar
+* Fixed "Flipped" string on Light Mortar
+* Fixed Light Mortar's barrel placement 
+* Modified "Pipsqueak" airship design
+* Modified "Chinchilla" airship design
+* Updated Construction Affinities
+
+[V1.2.0]
++ Added "Daemon" airship
+* Renamed "Karda's Air Arsenal - Weapon Pack"
+
+[V1.3.0]
++ Added Rocket Launcher
++ Added "Boomer" airship
+* Fixed Heavy Mortar bump map
+* Updated Construction Affinities
+
+[V1.4.0]
++ Added Chimera Rockets
++ Added "Scythe" airship
+* Fixed Light Mortar bump map
+* Fixed Heavy Mortar bump map
+* Fixed Rocket Launcher bump map
+* Updated Construction Affinities
+
+[V1.5.0]
++ Added Skyranger Gatling
++ Added Hellfire Rockets
++ Added Heavy Bomb Bay
++ Added Gatling Autoturret
++ Added "Skyblaster" building (AI Only)
++ Added "Truncheon" building (AI Only)
++ Added "Shreeker" building (AI Only)
++ Added "Overwatch" building (AI Only)
++ Added "Arrowhead" building (AI Only)
++ Added "Thunder" landship (AI Only)
++ Added "Screetcher" landship (AI Only)
++ Added "Skyranger" landship (AI Only)
++ Added "Spammer" airship (AI Only)
++ Added "Doomsday" airship (AI Only)
++ Added KAA Weapons module category
+* All weapons have been moved to the "KAA Weapons" category
+* Updated spritesheet to add background items to modules
+* Updated spritesheet for numerous weapon barrel fixes
+* Updated bumpmap for numerous modules
+* Rocket technology is now required for Chimera Rockets
+* Updated Chimera Rockets ammunition appearance
+* Updated Logo
+* Updated & Renamed Construction Affinities
+- Removed all player ships (AI still have access)
+
+[V1.6.0]
++ Added Cannon Autoturret
++ Added Missile Autoturret
++ Added Suspendium Railjack
++ Added "Dredd" airship (AI Only)
++ Added "Archon" airship (AI Only)
++ Added "Jolt" airship (AI Only)
++ Added Medium Bronze armour plating
++ Added Heavy Bronze armour plating
++ Added KAA Superweapons module category
+* Added max range onto Autoturrets
+* Updated Hellfire Rockets shot image
+* Increased Hellfire Rockets damage (+220%)
+* Increased Heavy Mortar damage (+40%)
+* Increased Chimera Rockets damage (+65%)
+* Reduced Chimera Rockets clip size (-33%)
+* Added clip reload time to Skyranger Gatling
+* Updated Construction Affinities
+- Removed some redundant code
+
+[V1.6.1]
+* Added weapon animation to Suspendium Railjack
+* Added lights to Suspendium Railjack
+* Added inaccuracy to Suspendium Railjack (0 to 0.001)
+* Increased particle probability on Suspendium Railjack shots (0.1 to 0.5)
+* Increased Suspendium Railjack reload (+50%)
+* Increased Suspendium Railjack shot speed (+150%)
+* Updated Suspendium Railjack bump map
+- Removed a crew spot on Suspendium Railjack
+- Removed some redundant code
+
+[V1.7.0]
++ Added Suspendium Halberd (Buildings Only)
++ Added Land Mattress (Landships Only)
++ Added Minigun
++ Added Dual Minigun (Airships Only)
++ Added Heavy Flak Cannon
++ Added Mag Cannon
++ Added Light Ceramic armour
++ Added "Overdrive" landship (AI Only)
++ Added "Tyrant" landship (AI Only)
++ Added "Dominator" building (AI Only)
++ Added workshop graphics for all implemented items
+* Updated Light Mortar graphic
+* Updated Heavy Mortar graphic
+* Updated Heavy Mortar shot graphic
+* Updated Chimera Rockets graphic
+* Updated Chimera Rockets shot graphic
+* Updated Skyranger Gatling bump map
+* Updated Skyranger Gatling shot graphic
+* Updated Hellfire Rockets graphic
+* Updated Hellfire Rockets shot graphic
+* Updated Heavy Bomb Bay fragment map
+* Updated Gatling Autoturret graphic
+* Updated Gatling Autoturret shot graphic
+* Updated Cannon Autoturret bump map
+* Updated Missile Autoturret bump map
+* Updated Med Bronze Armour description
+* Updated Med Bronze Armour bump map
+* Updated Heavy Bronze Armour description
+* Reduced Heavy Bronze Armour blast resistance (-12.5%)
+* Updated Heavy Bronze Armour bump map
+* Reduced Cannon Autoturret damage (-12.5%)
+* Reduced Cannon Autoturret firing arc (-25%)
+* Reduced Cannon Autoturret inaccuracy (Equil to Heavy Cannon)
+* Increased Cannon Autoturret reload (+50%)
+* Increased Cannon Autoturret range (+150%)
+* Added max range to Hellfire Rockets (300m x 50m)
+* Added clip reload time to Hellfire Rockets (10s/clip)
+* Reduced Hellfire Rockets reload time (-75%)
+* Reduced Hellfire Rockets firing arc (-25%)
+* Updated Hellfire Rockets description
+* Added clip reload time to Light Mortar (3s/clip)
+* Reduced Light Mortar reload time (-60%)
+* Added clip reload time to Heavy Mortar (8s/clip)
+* Reduced Heavy Mortar reload time (-50%)
+* Animated Gatling Autoturret barrel
+* Fixed Suspendium Railjack bump map
+* Fixed Rocket Launcher bump map
+* Fixed Skyranger Gatling orientation
+* Fixed Light Mortar aiming mechanism
+* Fixed Heavy Mortar aiming mechanism
+* Restricted Suspendium Railjack to Airships and Landships
+* Updated Suspendium Railjack fire sound
+* Updated Construction Affinities
+* Updated Light Mortar workshop graphic
+* Updated Heavy Mortar workshop graphic
+* Updated Chimera Rockets workshop graphic
+* Updated Hellfire Rockets workshop graphic
+* Updated Gatling Autoturret workshop graphic
+* Updated Cannon Autoturret workshop graphic
+* Updated Missile Autoturret workshop graphic
+* Updated Suspendium Railjack workshop graphic
+* Updated Med Bronze Armour workshop graphic
+* Updated Heavy Bronze Armour workshop graphic
+* Updated Logo
+
+[V1.8.0]
++ Added Shotgun
++ Added AP Minigun
++ Added Howitzer
++ Added Python Cannon
++ Added Python LB Cannon
++ Added Steam Rifle
++ Added "Rangefinder" airship (AI Only)
++ Added "Fuse" airship (AI Only)
++ Added "Hothead" airship (AI Only)
++ Added "Bulwark" landship (AI Only)
++ Added "Gun Tractor" landship (AI Only)
++ Added "Landing Pad" building (AI Only)
++ Added workshop graphics for all implemented items
+* Updated Land Mattress placement restrictions
+* Updated Land Mattress construct availability
+* Updated Land Mattress graphic
+* Updated Land Mattress bump map
+* Updated Land Mattress fragment map
+* Updated Light Ceramic Armour description
+* Reduced Minigun damage (-25%)
+* Increased Mag Cannon reload time (+50%)
+* Reduced Mag Cannon damage (-50%)
+* Increased Mag Cannon damage upon destruction (+25%)
+* Updated Land Mattress workshop graphic
+* Updated Minigun workshop graphic
+* Updated Mag Cannon workshop graphic
+* Updated Info
+* Updated Logo
+
+[V1.9.0]
++ Added Oxygenated Flamethrower
++ Added Cluster Bombs
++ Added Cluster Rockets
++ Added Vespis Light Autocannon
++ Added Vespis Heavy Autocannon
++ Added Aspis Ultra-Heavy Cannon
++ Added Tiny Keel
++ Added Tiny Keel (Heavy)
++ Added Small Keel (Heavy)
++ Added Small Keel (Vertical)
++ Added Small Keel (Heavy) (Vertical)
++ Added Large Keel (Heavy)
++ Added Large Keel (Vertical)
++ Added Large Keel (Heavy) (Vertical)
++ Added Grand Keel (Heavy)
++ Added Grand Keel (Vertical)
++ Added Grand Keel (Heavy) (Vertical)
++ Added Ceramic Medium Armour
++ Added VPR Plate Armour
++ Added VPR-I Plate Armour
++ Added "Breakneck" airship (AI Only)
++ Added "Syph" airship (AI Only)
++ Added "Backbreaker" landship (AI Only)
++ Added "Relic" landship (AI Only)
++ Added "Blighter" building (AI Only)
++ Added "Pale Watch" building (AI Only)
++ Added "Slammer" building (AI Only)
++ Added "KAA Structural" category
++ Added "KAA Heavy Structural" category
++ Added workshop graphics for all implemented items
+* Renamed all armours
+* Organised all armours
+* Increased Mag Cannon cost (+50%)
+* Increased AP Minigun cost (+60%)
+* Increased Dual Minigun range (+50%)
+* Reduced Ceramic Light Armour penetration resistance (-25%)
+* Reduced Ceramic Light Armour cost (-25%)
+* Updated Dual Minigun graphic
+* Changed Dual Minigun shot graphic
+* Updated Cannon Autoturret description
+* Updated Missile Autoturret description
+* Updated Steam Rifle bump map
+* Updated Construction Affinities
+* Updated Info
+* Updated Logo
+- Removed false error messages
+
+[V1.9.1]
+* Fixed typo in "Cluster Bombs" name
+* Fixed false information in "Reinforced Wooden Strut"
+* Fixed false information in "Reinforced Strut"
+* Updated respective workshop graphics
+
+[V1.10.0]
++ Added Chemical Cannon
++ Added Scrap Cannon
++ Added Titan Bomb Bay
++ Added Large Titan Bomb Bay
++ Added Hammerhead Light Cannon
++ Added Hammerhead Heavy Cannon
++ Added Revolution Cannon
++ Added Revolution Autocannon
++ Added Revolution Gatling
++ Added Mechanised Dorsal Breech Cannon
++ Added Mechanised Ventral Breech Cannon
++ Added Small Functional Module
++ Added "KAA Functional" category
++ Added "Nexus" airship (AI Only)
++ Added "Blockhead" airship (AI Only)
++ Added "Orbitalis" airship (AI Only)
++ Added "Nail" landship (AI Only)
++ Added "Bolt" landship (AI Only)
++ Added workshop graphics for all implemented items
+* Increased Heavy Bomb Bay cost (+100%)
+* Increased Suspendium Railjack piercing damage (+1250%)
+* Increased Suspendium Railjack blast damage (+1250%)
+* Increased Suspendium Halberd piercing damage (+1250%)
+* Increased Suspendium Halberd blast damage (+1250%)
+* Reduced Heavy Bomb Bay fire arc (-5°)
+* Updated Heavy Bomb Bay graphic
+* Updated Heavy Bomb Bay bump map
+* Updated Backblaster Rockets barrel
+* Fixed Backblaster Rockets shot bump map
+* Fixed Dual Minigun bump map
+* Updated Land Mattress graphic
+* Updated Land Mattress bump map
+* Updated Land Mattress fragment map
+* Updated Howitzer graphic
+* Updated Howitzer bump map
+* Restricted Backblaster Rockets to airships
+* Organised fragment map
+* Updated respective workshop graphics
+* Updated Construction Affinities
+* Updated logo
+
+[V1.11.0]
++ Added Light Rifle
++ Added Light Rifle (Deck)
++ Added Light Rifle (Hatch)
++ Added Heavy Rifle
++ Added Heavy Rifle (Deck)
++ Added Heavy Rifle (Hatch)
++ Added Clockwork Rifle
++ Added Marksman's Rifle
++ Added Anti-Landship Rifle
++ Added Grenade Launcher (AP)
++ Added Grenade Launcher (AP) (Deck)
++ Added Grenade Launcher (HE)
++ Added Grenade Launcher (HE) (Deck)
++ Added Light Mortar (AP)
++ Added Light Mortar (HE)
++ Added Heavy Mortar (AP)
++ Added Heavy Mortar (HE)
++ Added Light Double-Barreled Mortar (HE)
++ Added Heavy Double-Barreled Mortar (HE)
++ Added Autonamous Light Mortar (AP)
++ Added Autonamous Light Mortar (HE)
++ Added Light Flak
++ Added Light Flak (Dorsal)
++ Added Light Flak (Dorsal) (Deck)
++ Added Autonamous Light Flak
++ Added Heavy Flak
++ Added Heavy Flak (Dorsal)
++ Added Heavy Flak (Dorsal) (Deck)
++ Added Burst Flak
++ Added Burst Flak (Dorsal)
++ Added Burst Flak (Dorsal) (Deck)
++ Added Light SAM
++ Added Light SAM (Deck)
++ Added Autonamous Light SAM
++ Added Heavy SAM
++ Added Heavy SAM (Deck)
++ Added Elder Light Howitzer
++ Added Elder Heavy Howitzer
++ Added Light Howitzer
++ Added Heavy Howitzer
++ Added Heavy Burst Howitzer
++ Added Ultra Howitzer
++ Added Light Long-Range Howitzer
++ Added Heavy Long-Range Howitzer
++ Added Heavy Long-Range Burst Howitzer
++ Added Light Rocket Artillery
++ Added Heavy Rocket Artillery
++ Added Heavy Long-Range Rocket Artillery
++ Added Ultra Rocket Artillery
++ Added Swivel Cannon
++ Added Swivel Cannon (Deck)
++ Added Swivel Cannon (Hatch)
++ Added Scrap Cannon
++ Added Scrap Cannon (Deck)
++ Added Light Cannon
++ Added Light Cannon (Deck)
++ Added Light Burst Cannon
++ Added Light Fixed Cannon
++ Added Light Autocannon
++ Added Medium Autocannon
++ Added Autonamous Medium Autocannon
++ Added Heavy Autocannon
++ Added Python Cannon
++ Added Python Cannon (Long-Barreled)
++ Added Light Bronze Cannon
++ Added Heavy Fixed Cannon
++ Added Medium Cannon
++ Added Medium Burst Cannon
++ Added Naval Cannon
++ Added Chemical Cannon
++ Added Revolution Heavy Autocannon
++ Added Revolution Heavy Cannon
++ Added Breech Cannon
++ Added Breech Mechanised Cannon (Dorsal)
++ Added Breech Mechanised Cannon (Ventral)
++ Added Heavy Bronze Cannon
++ Added Autonamous Heavy Bronze Cannon
++ Added Naval Burst Cannon
++ Added Light Hammerhead Cannon
++ Added Heavy Hammerhead Cannon
++ Added Aspis Cannon
++ Added Lancer Cannon
++ Added Suspendium Railjack
++ Added Suspendium Halbard
++ Added Cluster Bomb Bay
++ Added Titan Bomb Bay
++ Added Heavy Bomb Bay
++ Added Heavy Bomb Bay (Long)
++ Added Bunker Buster Bomb Bay
++ Added Suspendium Bomb
++ Added Light Missile Pod
++ Added Medium Missile Pod
++ Added Autonamous Medium Missile Pod
++ Added Heavy Missile Pod
++ Added Rocket Launcher
++ Added Rocket Launcher (Deck)
++ Added Backblaster Rockets
++ Added Corsair Rockets
++ Added Chimera Rockets
++ Added Cluster Rockets
++ Added Falcon Torpedos
++ Added Raven Torpedos
++ Added Condor Torpedos
++ Added Shotgun
++ Added Shotgun (Deck)
++ Added Mag Cannon
++ Added Ripper Cannon
++ Added Shredder Cannon
++ Added Enhanced Gatling Gun
++ Added Enhanced Gatling Gun (Deck)
++ Added Enhanced Gatling Gun (Dorsal)
++ Added Revolution Enhanced Gatling Gun
++ Added Light Mechanical Clockwork Rifle
++ Added Light Mechanical Clockwork Rifle (Deck)
++ Added Heavy Mechanical Clockwork Rifle
++ Added Heavy Mechanical Clockwork Rifle (Deck)
++ Added Heavy Gatling Gun
++ Added Heavy Gatling Gun (HE)
++ Added Autonamous Heavy Gatling
++ Added Minigun
++ Added Minigun (AP)
++ Added Dual Minigun
++ Added Dual Minigun (AP)
++ Added Gatling Cannon
++ Added Shredstorm Cannon
++ Added Oxygenated Flamethrower
++ Added Steam Rifle
++ Added Light Harpoon
++ Added Heavy Harpoon
++ Added Long-Range Harpoon
++ Added module category: (KAA) Weapons, Rifles
++ Added module category: (KAA) Weapons, Grenades / Mortars
++ Added module category: (KAA) Weapons, Flak
++ Added module category: (KAA) Weapons, SAMs
++ Added module category: (KAA) Weapons, Artillery
++ Added module category: (KAA) Weapons, Cannons, T1
++ Added module category: (KAA) Weapons, Cannons, T2
++ Added module category: (KAA) Weapons, Cannons, T3
++ Added module category: (KAA) Weapons, Cannons, T4
++ Added module category: (KAA) Weapons, Bomb Bays
++ Added module category: (KAA) Weapons, Missiles
++ Added module category: (KAA) Weapons, Rockets
++ Added module category: (KAA) Weapons, Torpedos
++ Added module category: (KAA) Weapons, Multi-Shot
++ Added module category: (KAA) Weapons, Gatling, T1
++ Added module category: (KAA) Weapons, Gatling, T2
++ Added module category: (KAA) Weapons, Pressure
++ Added module category: (KAA) Weapons, Harpoons
++ Added module category: (KAA) Weapons, Legacy
+* Changed module category: KAA Structural > (KAA) Legacy, Structural
+* Changed module category: KAA Functional > (KAA) Legacy, Functional
+[b]* Moved all pre-existing modules into (KAA) Weapons, Legacy[/b]
+- Removed module category: KAA Weapons
+[b]- Removed prerequisites from legacy modules
+- Removed build exclusivity from legacy modules[/b]
+
+[V1.11.1]
+- Removed max ranges from Light SAM
+- Removed max ranges from Light SAM (Deck)
+- Removed max ranges from Autonamous Light SAM
+- Removed max ranges from Heavy SAM
+- Removed max ranges from Heavy SAM (Deck)
+- Removed max ranges from Swivel Cannon
+- Removed max ranges from Swivel Cannon (Deck)
+- Removed max ranges from Swivel Cannon (Hatch)
+- Removed max ranges from Heavy Fixed Cannon
+- Removed max ranges from Light Autocannon
+- Removed max ranges from Medium Autocannon
+- Removed max ranges from Autonamous Medium Autocannon
+- Removed max ranges from Heavy Autocannon
+- Removed max ranges from Revolution Heavy Autocannon
+- Removed max ranges from Light Missile Pod
+- Removed max ranges from Medium Missile Pod
+- Removed max ranges from Autonamous Medium Missile Pod
+- Removed max ranges from Heavy Missile Pod
+- Removed max ranges from Rocket Launcher
+- Removed max ranges from Rocket Launcher (Deck)
+- Removed max ranges from Backblaster Rockets
+- Removed max ranges from Corsair Rockets
+- Removed max ranges from Chimera Rockets
+- Removed max ranges from Cluster Rockets
+- Removed max ranges from Enhanced Gatling Gun
+- Removed max ranges from Enhanced Gatling Gun (Deck)
+- Removed max ranges from Enhanced Gatling Gun (Dorsal) 
+- Removed max ranges from Light Mechanical Clockwork Rifle
+- Removed max ranges from Light Mechanical Clockwork Rifle (Deck)
+- Removed max ranges from Heavy Mechanical Clockwork Rifle
+- Removed max ranges from Heavy Mechanical Clockwork Rifle (Deck)
+- Removed max ranges from Heavy Gatling Gun
+- Removed max ranges from Heavy Gatling Gun (HE)
+- Removed max ranges from Autonamous Heavy Gatling Gun
+
+[V1.11.2]
+* Fixed Heavy Keels being in the wrong category
+* Fixed Heavy Keels global availability
+* Fixed Grand Heavy Keels having conquest prerequisite technology
+
+[V1.11.3]
+* Fixed Light Rifle (Hatch) having forward restrictions
+* Fixed Heavy Rifle (Hatch) having forward restrictions
+
+[V1.11.4]
+- Removed max ranges from Light Flak
+- Removed max ranges from Light Flak (Dorsal)
+- Removed max ranges from Light Flak (Dorsal) (Deck)
+- Removed max ranges from Heavy Flak
+- Removed max ranges from Heavy Flak (Dorsal)
+- Removed max ranges from Heavy Flak (Dorsal) (Deck)
+- Removed max ranges from Burst Flak
+- Removed max ranges from Burst Flak (Dorsal)
+- Removed max ranges from Burst Flak (Dorsal) (Deck)
+
+[V1.11.5]
+* Fixed Burst Flak accuracy
+* Fixed Burst Flak (Dorsal) accuracy
+* Fixed Burst Flak (Dorsal) (Deck) accuracy
+
+[V1.11.6]
+* Fixed Revolution Heavy Autocannon description string
+* Fixed Heavy Flak (Dorsal) (Deck) having a graphical offset
+* Fixed Burst Flak (Dorsal) (Deck) overwriting Burst Flak (Dorsal)
+
+[V1.11.7]
+* Fixed Ultra Howitzer having it's door and crew positions one tile too high.
+
+[V1.11.8]
+* Fixed Heavy Long-Range Rocket Artillery's description
+* Fixed Light Long-Range Howitzer's description
+* Fixed Heavy Long-Range Howitzer's description
+
+[V1.12.0]
++ Added Grenade Launcher (GS)
++ Added Grenade Launcher (GS) (Deck)
++ Added Light Mortar (GS)
++ Added Heavy Mortar (GS)
++ Added Autonamous Light Mortar (GS)
++ Added Light Barrage Cannon (Dorsal)
++ Added Light Barrage Cannon (Ventral)
++ Added Medium Barrage Cannon (Dorsal)
++ Added Medium Barrage Cannon (Ventral)
++ Added Heavy Barrage Cannon (Dorsal)
++ Added Heavy Barrage Cannon (Ventral)
+* Reduced Light Rifle Jitter 1.2 > 0.2
+* Reduced Light Rifle (Deck) Jitter 1.2 > 0.2
+* Reduced Light Rifle (Hatch) Jitter 1.2 > 0.2
+* Reduced Heavy Rifle Jitter 0.6 > 0.4
+* Reduced Heavy Rifle (Deck) Jitter 0.6 > 0.4
+* Reduced Heavy Rifle (Hatch) Jitter 0.6 > 0.4
+* Reduced Clockwork Rifle Jitter 1.2 > 0.2
+* Increased Clockwork Rifle Accuracy 0.003 > 0.002
+* Reduced Marksman Rifle Jitter 0.4 > 0.2
+* Reduced Anti-Landship Rifle Jitter 0.2 > 0.1
+* Increased Grenade Launcher (AP) Optimum Range 400 > 384
+* Reduced Grenade Launcher (AP) Jitter 1 > 0.75
+* Increased Grenade Launcher (HE) Optimum Range 400 > 384
+* Reduced Grenade Launcher (HE) Jitter 1 > 0.75
+* Increased Grenade Launcher (AP) (Deck) Optimum Range 400 > 384
+* Reduced Grenade Launcher (AP) (Deck) Jitter 1 > 0.75
+* Increased Grenade Launcher (HE) (Deck) Optimum Range 400 > 384
+* Reduced Grenade Launcher (HE) (Deck) Jitter 1 > 0.75
+* Increased Light Mortar (AP) Health 40 > 70
+* Increased Light Mortar (AP) Explosion Damage 40 > 55
+* Fixed Light Mortar (AP) Optimum Range 2000 > 1536
+* Increased Light Mortar (HE) Health 40 > 70
+* Increased Light Mortar (HE) Explosion Damage 60 > 75
+* Fixed Light Mortar (HE) Optimum Range 2000 > 1536
+* Increased Heavy Mortar (AP) Health 80 > 150
+* Increased Heavy Mortar (AP) Explosion Damage 70 > 105
+* Fixed Heavy Mortar (AP) Optimum Range 2500 > 2048
+* Increased Heavy Mortar (HE) Health 80 > 150
+* Increased Heavy Mortar (HE) Explosion Damage 100 > 135
+* Fixed Heavy Mortar (HE) Optimum Range 2500 > 2048
+* Increased Autonamous Light Mortar (AP) Health 40 > 70
+* Increased Autonamous Light Mortar (AP) Explosion Damage 40 > 55
+* Fixed Autonamous Light Mortar (AP) Optimum Range 2000 > 1536
+* Increased Autonamous Light Mortar (HE) Health 40 > 70
+* Increased Autonamous Light Mortar (HE) Explosion Damage 60 > 75
+* Fixed Autonamous Light Mortar (HE) Optimum Range 2000 > 1536
+* Increased Titan Bomb Bay cost $400 > $500
+* Increased Titan Bomb Bay pierce damage 50 > 75
+* Increased Titan Bomb Bay blast damage 150 > 200
+* Reduced Light Missile Pod Jitter 1 > 0.75
+* Increased Falcon Torpedo minimum range 256 > 512
+* Increased Falcon Torpedo pierce damage 40 > 50
+* Increased Condor Torpedo minimum range 512 > 736
+* Increased Raven Torpedo minimum range 128 > 256
+* Reduced Shotgun Jitter 1.5 > 0.75
+* Reduced Shotgun Pellet Jitter 0.00375 > 0.0006
+* Increased Shotgun Accuracy 0.004 > 0.003
+* Reduced Shotgun (Deck) Jitter 1.5 > 0.75
+* Reduced Shotgun (Deck) Pellet Jitter 0.00375 > 0.0006
+* Increased Shotgun (Deck) Accuracy 0.004 > 0.003
+* Reduced Mag Cannon Jitter 0.75 > 0.5
+* Reduced Mag Cannon Pellet Jitter 0.0019 > 0.0006
+* Increased Mag Cannon Accuracy 0.004 > 0.003
+* Reduced Ripper Cannon Jitter 0.5 > 0.25
+* Reduced Ripper Cannon Pellet Jitter 0.0025 > 0.0003
+* Increased Ripper Cannon Accuracy 0.0025 > 0.0015
+* Reduced Shredder Cannon Jitter 0.75 > 0.5
+* Reduced Shredder Cannon Pellet Jitter 0.0013 > 0.0004
+* Increased Shredder Cannon Accuracy 0.003 > 0.002
+* Applied weapon bonuses
+* Updated Heavy Long-Range Rocket Artillery graphic
+* Updated Revolution Cannon graphic
+[b]* Reduced all weapon module weights by >50%
+- Removed legacy modules[/b]
+- Removed constructs
+- Removed construction affinities
+
+[V1.12.1]
+* Reduced Burst Flak Pellet Jitter 0.00125 > 0.0005
+* Reduced Burst Flak (Dorsal) Pellet Jitter 0.00125 > 0.0005
+* Reduced Burst Flak (Dorsal) (Deck) Pellet Jitter 0.00125 > 0.0005
+* Updated Breech Cannon (Dorsal) graphic
+* Updated Breech Cannon (Ventral) graphic
+- Removed 3 crew spaces from Breech Cannon (Ventral)
+
+[V1.12.2]
+* Increased Light Rifle TBS 125ms > 500ms
+* Increased Light Rifle reload 2s > 3s
+* Increased Light Rifle (Deck) TBS 125ms > 500ms
+* Increased Light Rifle (Deck) reload 2s > 3s
+* Increased Light Rifle (Hatch) TBS 125ms > 500ms
+* Increased Light Rifle (Hatch) reload 2s > 3s
+* Increased Heavy Rifle TBS 250ms > 750ms
+* Increased Heavy Rifle reload 3s > 5s
+* Increased Heavy Rifle (Deck) TBS 250ms > 750ms
+* Increased Heavy Rifle (Deck) reload 3s > 5s
+* Increased Heavy Rifle (Hatch) TBS 250ms > 750ms
+* Increased Heavy Rifle (Hatch) reload 3s > 5s
+* Increased Clockwork Rifle TBS 50ms > 150ms
+* Increased Clockwork Rifle reload 3s > 4s
+* Increased Marksman Rifle TBS 500ms > 2s
+* Increased Anti-Landship Rifle TBS 750ms > 3s
+* Increased Grenade Launcher (AP) accuracy 0.003 > 0.002
+* Increased Grenade Launcher (AP) (Deck) accuracy 0.003 > 0.002
+* Increased Grenade Launcher (HE) accuracy 0.003 > 0.002
+* Increased Grenade Launcher (HE) (Deck) accuracy 0.003 > 0.002
+* Increased Grenade Launcher (GS) accuracy 0.003 > 0.002
+* Increased Grenade Launcher (GS) (Deck) accuracy 0.003 > 0.002
+* Increased Light Mortar (AP) accuracy 0.0025 > 0.0015
+* Increased Light Mortar (HE) accuracy 0.0025 > 0.0015
+* Increased Light Mortar (GS) accuracy 0.0025 > 0.0015
+* Increased Heavy Mortar (AP) accuracy 0.002 > 0.001
+* Increased Heavy Mortar (HE) accuracy 0.002 > 0.001
+* Increased Heavy Mortar (GS) accuracy 0.002 > 0.001
+* Increased Light Double-Barreled Mortar (HE) accuracy 0.003 > 0.002
+* Increased Heavy Double-Barreled Mortar (HE) accuracy 0.003 > 0.002
+* Increased Autonamous Light Mortar (AP) accuracy 0.0025 > 0.0015
+* Increased Autonamous Light Mortar (HE) accuracy 0.0025 > 0.0015
+* Increased Autonamous Light Mortar (GS) accuracy 0.0025 > 0.0015
+
+[v1.13.0]
++ Added Medium Blowback Cannon
++ Added Light Rifle fire sound variation
++ Added Light Rifle troop range (75% optimal range)
++ Added Light Rifle (Deck) fire sound variation
++ Added Light Rifle (Deck) troop range (75% optimal range)
++ Added Light Rifle (Hatch) fire sound variation
++ Added Light Rifle (Hatch) troop range (75% optimal range)
++ Added Heavy Rifle fire sound variation
++ Added Heavy Rifle troop range (75% optimal range)
++ Added Heavy Rifle (Deck) fire sound variation
++ Added Heavy Rifle (Deck) troop range (75% optimal range)
++ Added Heavy Rifle (Hatch) fire sound variation
++ Added Heavy Rifle (Hatch) troop range (75% optimal range)
++ Added Clockwork Rifle fire sound variation
++ Added Clockwork Rifle troop range (50% optimal range)
++ Added Marksman Rifle fire sound variation
++ Added Marksman Rifle troop range (150% optimal range)
++ Added Anti-Landship Rifle fire sound variation
++ Added Anti-Landship Rifle troop range (100% optimal range)
+* Updated Light Rifle graphics
+* Reduced Light Rifle recommended crew 2 > 1
+* Reduced Light Rifle pierce damage 5 > 3
+* Reduced Light Rifle optimal range (AI) 900 > 600
+* Increased Light Rifle cost 10 > 12
+* Increased Light Rifle clip 24 > 27
+* Increased Light Rifle TBS 500ms > 870ms
+* Increased Light Rifle accuracy 0.0025 > 0.0014
+* Increased Light Rifle visual recoil 0.1 > 1
+* Updated Light Rifle (Deck) graphics
+* Reduced Light Rifle (Deck) movement delay 600ms > 200ms
+* Reduced Light Rifle (Deck) recommended crew 2 > 1
+* Reduced Light Rifle (Deck) pierce damage 5 > 3
+* Reduced Light Rifle (Deck) optimal range (AI) 900 > 600
+* Increased Light Rifle (Deck) HP 20 > 30
+* Increased Light Rifle (Deck) Fire HP 10 > 15
+* Increased Light Rifle (Deck) weight 4 > 6
+* Increased Light Rifle (Deck) cost 5 > 8
+* Increased Light Rifle (Deck) clip 24 > 27
+* Increased Light Rifle (Deck) TBS 500ms > 870ms
+* Increased Light Rifle (Deck) accuracy 0.0025 > 0.0014
+* Increased Light Rifle (Deck) visual recoil 0.1 > 1
+* Updated Light Rifle (Hatch) graphics
+* Reduced Light Rifle (Hatch) cost 30 > 16
+* Reduced Light Rifle (Hatch) recommended crew 2 > 1
+* Reduced Light Rifle (Hatch) pierce damage 5 > 3
+* Reduced Light Rifle (Hatch) optimal range (AI) 900 > 600
+* Increased Light Rifle (Hatch) clip 24 > 27
+* Increased Light Rifle (Hatch) TBS 500ms > 870ms
+* Increased Light Rifle (Hatch) accuracy 0.0025 > 0.0016
+* Increased Light Rifle (Hatch) visual recoil 0.1 > 1
+* Updated Heavy Rifle graphics
+* Reduced Heavy Rifle size 2x1 > 1x1
+* Reduced Heavy Rifle cost 30 > 28
+* Reduced Heavy Rifle weight 20 > 10
+* Reduced Heavy Rifle health 80 > 50
+* Reduced Heavy Rifle fire HP 40 > 25
+* Reduced Heavy Rifle recommended crew 2 > 1
+* Reduced Heavy Rifle pierce damage 12 > 7
+* Reduced Heavy Rifle optimal range (AI) 1200 > 1000
+* Reduced Heavy Rifle shot speed 1.25 > 1
+* Increased Heavy Rifle TBS 750ms > 1730ms
+* Increased Heavy Rifle accuracy 0.002 > 0.001
+* Increased Heavy Rifle visual recoil 0.2 > 3
+* Updated Heavy Rifle (Deck) graphics
+* Reduced Heavy Rifle (Deck) size 2x1 > 1x1
+* Reduced Heavy Rifle (Deck) cost 25 > 20
+* Reduced Heavy Rifle (Deck) weight 10 > 8
+* Reduced Heavy Rifle (Deck) movement delay 600ms > 200ms
+* Reduced Heavy Rifle (Deck) recommended crew 2 > 1
+* Reduced Heavy Rifle (Deck) pierce damage 12 > 7
+* Reduced Heavy Rifle (Deck) optimal range (AI) 1200 > 1000
+* Reduced Heavy Rifle (Deck) shot speed 1.25 > 1
+* Increased Heavy Rifle (Deck) TBS 750ms > 1730ms
+* Increased Heavy Rifle (Deck) accuracy 0.002 > 0.001
+* Increased Heavy Rifle (Deck) visual recoil 0.2 > 3
+* Updated Heavy Rifle (Hatch) graphics
+* Reduced Heavy Rifle (Hatch) weight 13 > 10
+* Reduced Heavy Rifle (Hatch) cost 50 > 32
+* Reduced Heavy Rifle (Hatch) recommended crew 2 > 1
+* Reduced Heavy Rifle (Hatch) pierce damage 12 > 7
+* Reduced Heavy Rifle (Hatch) optimal range (AI) 1200 > 1000
+* Reduced Heavy Rifle (Hatch) shot speed 1.25 > 1
+* Increased Heavy Rifle (Hatch) TBS 750ms > 1730ms
+* Increased Heavy Rifle (Hatch) accuracy 0.002 > 0.0012
+* Increased Heavy Rifle (Hatch) visual recoil 0.2 > 3
+* Updated Clockwork Rifle graphics
+* Reduced Clockwork Rifle cost 50 > 32
+* Reduced Clockwork Rifle recommended crew 2 > 1
+* Reduced Clockwork Rifle clip 90 > 30
+* Reduced Clockwork Rifle clip reload 4s > 2.6s
+* Reduced Clockwork Rifle optimal range (AI) 900 > 550
+* Increased Clockwork Rifle weight 8 > 10
+* Increased Clockwork Rifle accuracy 0.0025 > 0.0024
+* Increased Clockwork Rifle TBS 175ms > 250ms
+* Increased Clockwork Rifle visual recoil 0.2 > 1.5
+* Updated Marksman Rifle graphics
+* Reduced Marksman Rifle cost 80 > 48
+* Reduced Marksman Rifle weight 20 > 18
+* Reduced Marksman Rifle pierce damage 30 > 20
+* Increased Marksman Rifle blast damage 0 > 5
+* Increased Marksman Rifle TBS 2s > 5.2s
+* Increased Marksman Rifle accuracy 0.001 > 0.0008
+* Increased Marksman Rifle visual recoil 0.25 > 4
+* Increased Marksman Rifle shot speed 1.5 > 2
+* Increased Marksman Rifle optimal range (AI) 1200 > 1500
+* Updated Anti-Landship Rifle graphics
+* Reduced Anti-Landship Rifle size 3x1 > 2x1
+* Reduced Anti-Landship Rifle cost 120 > 72
+* Reduced Anti-Landship Rifle health 120 > 100
+* Reduced Anti-Landship Rifle fire HP 60 > 50
+* Reduced Anti-Landship Rifle explosion HP 30 > 10
+* Reduced Anti-Landship Rifle explosion damage 60 > 10
+* Reduced Anti-Landship Rifle pierce damage 40 > 30
+* Reduced Anti-Landship Rifle blast damage 10 > 5
+* Increased Anti-Landship Rifle weight 33 > 35
+* Increased Anti-Landship Rifle TBS 3s > 9.75s
+* Increased Anti-Landship Rifle accuracy 0.0005 > 0.0004
+* Increased Anti-Landship Rifle visual recoil 0.5 > 3
+* Increased Anti-Landship Rifle optimal range (AI) 1750 > 2000
+
+* Reduced Cluster Bomb Bay cost 200 > 50
+* Reduced Cluster Bomb Bay fire arc 30° > 10°
+* Reduced Titan Bomb Bay cost 500 > 125
+* Reduced Titan Bomb Bay fire arc 30° > 10°
+* Reduced Heavy Bomb Bay cost 400 > 100
+* Reduced Heavy Bomb Bay fire arc 30° > 10°
+* Reduced Heavy Bomb Bay (Long) cost 400 > 100
+* Reduced Heavy Bomb Bay (Long) fire arc 30° > 10°
+* Reduced Bunker Buster Bomb Bay cost 500 > 125
+* Reduced Bunker Buster Bomb Bay fire arc 30° > 10°
+* Reduced Suspendium Bomb fire arc 30° > 10°
+- Removed Light Rifle technology requirement
+- Removed Light Rifle clip reload
+- Removed Light Rifle ship recoil
+- Removed Light Rifle explosion hitpoints
+- Removed Light Rifle explosion damage
+- Removed Light Rifle jitter
+- Removed Light Rifle (Deck) technology requirement
+- Removed Light Rifle (Deck) clip reload
+- Removed Light Rifle (Deck) ship recoil
+- Removed Light Rifle (Deck) explosion hitpoints
+- Removed Light Rifle (Deck) explosion damage
+- Removed Light Rifle (Deck) jitter
+- Removed Light Rifle (Hatch) technology requirement
+- Removed Light Rifle (Hatch) clip reload
+- Removed Light Rifle (Hatch) ship recoil
+- Removed Light Rifle (Deck) explosion hitpoints
+- Removed Light Rifle (Deck) explosion damage
+- Removed Light Rifle (Deck) jitter
+- Removed Heavy Rifle clip reload
+- Removed Heavy Rifle ship recoil
+- Removed Heavy Rifle explosion hitpoints
+- Removed Heavy Rifle explosion damage
+- Removed Heavy Rifle jitter
+- Removed Heavy Rifle (Deck) clip reload
+- Removed Heavy Rifle (Deck) ship recoil
+- Removed Heavy Rifle (Deck) explosion hitpoints
+- Removed Heavy Rifle (Deck) explosion damage
+- Removed Heavy Rifle (Deck) jitter
+- Removed Heavy Rifle (Hatch) clip reload
+- Removed Heavy Rifle (Hatch) ship recoil
+- Removed Heavy Rifle (Hatch) explosion hitpoints
+- Removed Heavy Rifle (Hatch) explosion damage
+- Removed Heavy Rifle (Hatch) jitter
+- Removed Clockwork Rifle ship recoil
+- Removed Clockwork Rifle explosion hitpoints
+- Removed Clockwork Rifle explosion damage
+- Removed Clockwork Rifle jitter
+- Removed Marksman Rifle clip reload
+- Removed Marksman Rifle ship recoil
+- Removed Marksman Rifle explosion hitpoints
+- Removed Marksman Rifle explosion damage
+- Removed Marksman Rifle jitter
+- Removed Anti-Landship Rifle clip reload
+- Removed Anti-Landship Rifle ship recoil
+- Removed Anti-Landship Rifle jitter
